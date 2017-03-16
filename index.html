@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang"en">
+<head>
+	<meta charset="utf-8">
+	<title>Trivia Game</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+</head>
+
+<body>
+<!-- jQuery JS -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"</script> 
+<!--Code to the Javascript File  -->
+<script src="assets/javascript/app.js"></script>
+
+<!-- title of the game -->
+<div class = "gameTitle">
+	<div class = "row">
+		<div class = "col-lg-12">
+			<img src="assets/images/trivia_title.png">
+		</div>
+	</div>
+</div>
+
+<!-- this div prompts the player to choose a character and begin playing the game.  -->
+
+<div class="container-fluid" id= "mainContainer">
+	<div class = "row">
+		<!-- Prompt to choose a characted (button) and start playing the game -->
+			<div class = "col-lg-12" id= "promptContainer">
+				<h2>All Muggles, Witches and Wizards are welcome here!</h2>
+				<h3>Click on your favorite character to start playing.</h3>
+				<div class ="row" id = "characterBtn">
+				<div class = "btn btn-lg"><img src=" assets/images/icon1.png"></div>
+				<div class = "btn btn-lg"><img src=" assets/images/icon2.png"></div>
+				<div class = "btn btn-lg"><img src=" assets/images/icon3.png"></div>
+			</div>
+	</div>
+</div>	
+
+<!-- this is the container that appears when you start the game -->
+
+<div class = "container-fluid" id= "triviaGamecontainer">
+	<div class ="row">
+			<div class = "col-lg-12" id= "triviaContentcontainer">
+				<!-- Rules to the game -->
+				<div class ="row" id="gameRules">
+					<!-- Would like to add the image of the character they choose, to say good luck -->
+					<h3>Test your knowledge!</h3>
+						<h4>Play until you miss 3 questions.</h4>
+				</div>
+				<!-- Question -->
+				<div class ="row" id="triviaQuestion">
+					
+				</div>
+				<!-- Create a table with the answer, buttons -->
+				<div class ="row" id="triviaAnswer">
+
+				</div>
+				<!-- image of snape next to the timer and score -->
+				<div class ="row">
+					<div class ="col-lg-4" id="triviaTimer">
+					<img src="assets/images/snape.png">
+					</div>
+					<div class ="col-lg-4" id="triviaScore">
+					</div>
+				</div>
+			</div>
+			</div>
+	</div>
+</div>
+
+
+
+
+  
+
+
+
+
+</body>
+</html>

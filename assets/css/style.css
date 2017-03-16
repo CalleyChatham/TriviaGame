@@ -1,0 +1,35 @@
+/*working off of http://www.harrypotter.bloomsbury.com/uk/fun-stuff/harry-potter-trivia-challenge/*/
+body {
+	background: url("http://media.harrypotter.bloomsbury.com/rep/g/page-background-shell%20-%202.png");
+}
+
+.gameTitle {
+	text-align: center;
+	padding: 50px 30px 50px 30px;
+}
+
+
+/*Promt to start the game and choose your character*/
+/*harry potter font?*/
+
+#mainContainer {
+	padding: 30px 200px 30px 200px;
+}
+
+#promptContainer {
+	text-align: center;
+	background: url("https://images.freecreatives.com/wp-content/uploads/2016/02/Light-Parchment-Texture.jpg");
+	color: #b1923c;
+	
+
+	}
+
+#triviaGamecontainer {
+	background: 
+	padding: 30px 200px 30px 200px;
+}
+
+#triviaQuestion {
+	
+}
+
