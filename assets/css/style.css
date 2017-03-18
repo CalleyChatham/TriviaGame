@@ -11,6 +11,16 @@ body {
 
 /*Promt to start the game and choose your character*/
 /*harry potter font?*/
+#snape {
+	float: left;
+	width: 200px;
+	position: relative;
+	top: 131px;
+}
+
+.background-img {
+	background: url("../../assets/images/background1.jpg");
+}
 
 #mainContainer {
 	padding: 30px 200px 30px 200px;
@@ -31,5 +41,17 @@ body {
 
 #triviaQuestion {
 	
+}
+.question-box {
+	width: 600px;
+	height: 400px;
+	background-color: #8d86b0;
+
+}
+.active {
+	display: contents;
+}
+.in-active {
+	display: none;
 }
 
